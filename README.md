@@ -4,8 +4,9 @@ Proyecto de pruebas con Karate para consumir el Petstore.
 
 ## Requisitos
 
-- Java 11 (segun pom.xml)
+- Java 11 
 - Maven 3.x (recomendado 3.8+)
+-  Intelligent Idea como entorno de ejecucion
 
 Versiones de tecnologia (pom.xml):
 
