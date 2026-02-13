@@ -452,3 +452,1717 @@ classpath:examples/petstore/getMascotaStatus/getMascotaStatus.feature:14
 [{"id":9999999,"name":"GhostPet","photoUrls":["https://example.com/dog.jpg"],"tags":[],"status":"sold"},{"id":12,"category":{"id":0,"name":"dogs"},"name":"Fido","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372016900017489,"category":{"id":0,"name":"string"},"name":"cat","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":12084391,"category":{"id":-48583,"name":"cupidatat amet commodo"},"name":"doggie","photoUrls":["fugiat Ut eu","exercitation nostr"],"tags":[{"id":-27183415,"name":"e"},{"id":86979382,"name":"in anim consectetur Lorem ut"}],"status":"sold"},{"id":98515,"name":"Update_98515","photoUrls":[],"tags":[],"status":"sold"},{"id":3514,"category":{"id":1059,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":2115,"name":"string"},{"id":5224,"name":"string"}],"status":"sold"},{"id":9,"category":{"id":0,"name":"cats"},"name":"King Kong","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":1770971153658,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":7776,"category":{"id":4355,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":436,"name":"string"},{"id":4297,"name":"string"}],"status":"sold"},{"id":1205,"category":{"id":8453,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":9384,"name":"string"},{"id":3003,"name":"string"}],"status":"sold"},{"id":1770971444350,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971502605,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}]
 
 03:31:45.333 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 5 (1 remaining) classpath:examples/petstore/getMascotaStatus/getMascotaStatus.feature
+03:46:10.614 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+03:46:10.620 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1770972370617
+03:46:10.626 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+03:46:11.977 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+03:46:11.976 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+03:46:11.976 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+03:46:11.976 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+03:46:11.976 [pool-2-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+03:46:12.079 [pool-2-thread-5] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:46:12.079 [pool-2-thread-3] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:46:12.079 [pool-2-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/updateMascota/updateMascota.feature - call by tag at line 6: updateMascota
+03:46:12.099 [pool-2-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:46:12.426 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/1
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:46:12.427 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 177
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1770972372110,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:46:12.427 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 177
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1770972372098,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:46:12.427 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 177
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1770972372080,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:46:12.427 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 177
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1770972372098,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:46:13.275 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 844
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:46:02 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1770972372080,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:46:13.275 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 844
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:46:02 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1770972372098,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:46:13.275 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 846
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:46:02 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1770972372098,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:46:13.275 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 844
+1 < 404
+1 < Date: Fri, 13 Feb 2026 08:46:02 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"code":1,"type":"error","message":"Pet not found"}
+
+03:46:13.275 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 844
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:46:02 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1770972372110,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:46:13.293 [pool-2-thread-1] ERROR com.intuit.karate - classpath:examples/petstore/user.feature:9
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 844, url: https://petstore.swagger.io/v2/pet/1, response: 
+{"code":1,"type":"error","message":"Pet not found"}
+classpath:examples/petstore/user.feature:9
+03:46:13.319 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 180
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1770972372098,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:46:13.319 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 180
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1770972372110,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:46:13.323 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/1770972372098
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:46:13.722 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 402
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:46:03 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1770972372110,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:46:13.722 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 402
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:46:03 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1770972372098,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:46:13.732 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:46:13.748 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 424
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:46:03 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1770972372098,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:46:13.751 [pool-2-thread-3] ERROR com.intuit.karate - classpath:examples/petstore/constuMascota/constuMascota.feature:13
+And match response == payload
+match failed: EQUALS
+  $ | not equal | match failed for name: 'name' (MAP:MAP)
+  {"id":1770972372098,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+  {"id":1770972372098,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+    $.name | not equal (STRING:STRING)
+    'Firulais Updated'
+    'Firulais'
+
+classpath:examples/petstore/constuMascota/constuMascota.feature:13
+03:46:13.888 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 5 (4 remaining) classpath:examples/petstore/user.feature
+03:46:13.998 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 5 (3 remaining) classpath:examples/petstore/addMascota/addMascota.feature
+03:46:14.143 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 411
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:46:03 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[{"id":9999999,"name":"GhostPet","photoUrls":["https://example.com/dog.jpg"],"tags":[],"status":"sold"},{"id":9223372016900017489,"category":{"id":0,"name":"string"},"name":"cat","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":12084391,"category":{"id":-48583,"name":"cupidatat amet commodo"},"name":"doggie","photoUrls":["fugiat Ut eu","exercitation nostr"],"tags":[{"id":-27183415,"name":"e"},{"id":86979382,"name":"in anim consectetur Lorem ut"}],"status":"sold"},{"id":98515,"name":"Update_98515","photoUrls":[],"tags":[],"status":"sold"},{"id":3514,"category":{"id":1059,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":2115,"name":"string"},{"id":5224,"name":"string"}],"status":"sold"},{"id":9,"category":{"id":0,"name":"cats"},"name":"King Kong","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":1770971153658,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":7776,"category":{"id":4355,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":436,"name":"string"},{"id":4297,"name":"string"}],"status":"sold"},{"id":1205,"category":{"id":8453,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":9384,"name":"string"},{"id":3003,"name":"string"}],"status":"sold"},{"id":1770971444350,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971502605,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":64300,"name":"UpdatedName","photoUrls":[],"tags":[],"status":"sold"},{"id":1770971898716,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971898745,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971951734,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971951725,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":13,"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":215622,"category":{"id":5,"name":"Cats"},"name":"TestPet_245","photoUrls":["https://example.com/photo_6.jpg"],"tags":[{"id":1,"name":"tag_5"}],"status":"sold"},{"id":800613,"category":{"id":9,"name":"Fish"},"name":"TestPet_581","photoUrls":["https://example.com/photo_9.jpg"],"tags":[{"id":5,"name":"tag_2"}],"status":"sold"},{"id":529674,"category":{"id":7,"name":"Birds"},"name":"UpdatedPetName","photoUrls":["https://example.com/photo_10.jpg"],"tags":[{"id":1,"name":"tag_1"}],"status":"sold"},{"id":769115,"category":{"id":1,"name":"Dogs"},"name":"UpdatedDog-769115","photoUrls":["https://example.com/photo1.jpg"],"tags":[{"id":1,"name":"test-tag"}],"status":"sold"},{"id":1770972178,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770972233371,"name":"NewDog","photoUrls":[],"status":"sold"},{"id":1770972372110,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770972372098,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}]
+
+03:46:14.164 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 5 (2 remaining) classpath:examples/petstore/constuMascota/constuMascota.feature
+03:46:14.356 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 5 (1 remaining) classpath:examples/petstore/getMascotaStatus/getMascotaStatus.feature
+03:46:14.445 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 5 of 5 (0 remaining) classpath:examples/petstore/updateMascota/updateMascota.feature
+03:48:24.474 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+03:48:24.482 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1770972504479
+03:48:24.487 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+03:48:25.686 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+03:48:25.686 [pool-2-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+03:48:25.686 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+03:48:25.686 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+03:48:25.686 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+03:48:25.787 [pool-2-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:48:25.787 [pool-2-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/updateMascota/updateMascota.feature - call by tag at line 6: updateMascota
+03:48:25.787 [pool-2-thread-3] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/updateMascota/updateMascota.feature - call by tag at line 6: updateMascota
+03:48:25.791 [pool-2-thread-5] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:48:25.805 [pool-2-thread-3] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:48:25.805 [pool-2-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:48:25.820 [pool-2-thread-1] ERROR com.intuit.karate - classpath:examples/petstore/addMascota/addMascota.feature:8
+* def names = read('classpath:names.json')
+js failed:
+>>>>
+01: read('classpath:names.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: names.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:examples/petstore/addMascota/addMascota.feature:8
+03:48:25.821 [pool-2-thread-2] ERROR com.intuit.karate - classpath:examples/petstore/addMascota/addMascota.feature:8
+* def names = read('classpath:names.json')
+js failed:
+>>>>
+01: read('classpath:names.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: names.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:examples/petstore/addMascota/addMascota.feature:8
+03:48:25.820 [pool-2-thread-5] ERROR com.intuit.karate - classpath:examples/petstore/addMascota/addMascota.feature:8
+* def names = read('classpath:names.json')
+js failed:
+>>>>
+01: read('classpath:names.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: names.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:examples/petstore/addMascota/addMascota.feature:8
+03:48:25.823 [pool-2-thread-3] ERROR com.intuit.karate - classpath:examples/petstore/addMascota/addMascota.feature:8
+* def names = read('classpath:names.json')
+js failed:
+>>>>
+01: read('classpath:names.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: names.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:examples/petstore/addMascota/addMascota.feature:8
+03:48:25.824 [pool-2-thread-4] ERROR com.intuit.karate - classpath:examples/petstore/addMascota/addMascota.feature:8
+* def names = read('classpath:names.json')
+js failed:
+>>>>
+01: read('classpath:names.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: names.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:examples/petstore/addMascota/addMascota.feature:8
+03:48:25.826 [pool-2-thread-5] ERROR com.intuit.karate - classpath:examples/petstore/updateMascota/updateMascota.feature:7
+* def result = call read('classpath:examples/petstore/addMascota/addMascota.feature@addMascota')
+js failed:
+>>>>
+01: read('classpath:names.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: names.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:examples/petstore/addMascota/addMascota.feature:8
+classpath:examples/petstore/updateMascota/updateMascota.feature:7
+03:48:25.826 [pool-2-thread-1] ERROR com.intuit.karate - classpath:examples/petstore/user.feature:7
+* def result = call read('classpath:examples/petstore/addMascota/addMascota.feature@addMascota')
+js failed:
+>>>>
+01: read('classpath:names.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: names.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:examples/petstore/addMascota/addMascota.feature:8
+classpath:examples/petstore/user.feature:7
+03:48:25.826 [pool-2-thread-3] ERROR com.intuit.karate - classpath:examples/petstore/updateMascota/updateMascota.feature:7
+* def result = call read('classpath:examples/petstore/addMascota/addMascota.feature@addMascota')
+js failed:
+>>>>
+01: read('classpath:names.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: names.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:examples/petstore/addMascota/addMascota.feature:8
+classpath:examples/petstore/updateMascota/updateMascota.feature:7
+03:48:25.826 [pool-2-thread-4] ERROR com.intuit.karate - classpath:examples/petstore/updateMascota/updateMascota.feature:7
+* def result = call read('classpath:examples/petstore/addMascota/addMascota.feature@addMascota')
+js failed:
+>>>>
+01: read('classpath:names.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: names.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:examples/petstore/addMascota/addMascota.feature:8
+classpath:examples/petstore/updateMascota/updateMascota.feature:7
+03:48:25.827 [pool-2-thread-3] ERROR com.intuit.karate - classpath:examples/petstore/constuMascota/constuMascota.feature:7
+* def result = call read('classpath:examples/petstore/updateMascota/updateMascota.feature@updateMascota')
+js failed:
+>>>>
+01: read('classpath:names.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: names.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:examples/petstore/addMascota/addMascota.feature:8
+classpath:examples/petstore/updateMascota/updateMascota.feature:7
+classpath:examples/petstore/constuMascota/constuMascota.feature:7
+03:48:25.828 [pool-2-thread-4] ERROR com.intuit.karate - classpath:examples/petstore/getMascotaStatus/getMascotaStatus.feature:7
+* def updateResult = call read('classpath:examples/petstore/updateMascota/updateMascota.feature@updateMascota')
+js failed:
+>>>>
+01: read('classpath:names.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: names.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:examples/petstore/addMascota/addMascota.feature:8
+classpath:examples/petstore/updateMascota/updateMascota.feature:7
+classpath:examples/petstore/getMascotaStatus/getMascotaStatus.feature:7
+03:48:26.587 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 5 (4 remaining) classpath:examples/petstore/user.feature
+03:48:26.740 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 5 (3 remaining) classpath:examples/petstore/addMascota/addMascota.feature
+03:48:26.869 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 5 (2 remaining) classpath:examples/petstore/constuMascota/constuMascota.feature
+03:48:27.020 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 5 (1 remaining) classpath:examples/petstore/getMascotaStatus/getMascotaStatus.feature
+03:48:27.102 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 5 of 5 (0 remaining) classpath:examples/petstore/updateMascota/updateMascota.feature
+03:50:46.581 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+03:50:46.588 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1770972646585
+03:50:46.595 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+03:50:47.862 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+03:50:47.862 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+03:50:47.862 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+03:50:47.862 [pool-2-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+03:50:47.862 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+03:50:47.961 [pool-2-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:50:47.961 [pool-2-thread-3] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/updateMascota/updateMascota.feature - call by tag at line 6: updateMascota
+03:50:47.961 [pool-2-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/updateMascota/updateMascota.feature - call by tag at line 6: updateMascota
+03:50:47.962 [pool-2-thread-5] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:50:47.980 [pool-2-thread-3] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:50:47.988 [pool-2-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:50:48.381 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 165
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:50:48.381 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 165
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:50:48.381 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 165
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:50:48.381 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 165
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:50:48.381 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 165
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:50:49.172 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 787
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:50:38 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:50:49.177 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 794
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:50:38 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:50:49.177 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 795
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:50:38 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:50:49.179 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 796
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:50:38 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:50:49.184 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 800
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:50:38 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:50:49.209 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 168
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:50:49.210 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 168
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:50:49.210 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 168
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:50:49.221 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/1
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:50:49.604 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 393
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:50:39 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:50:49.612 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 401
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:50:39 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:50:49.612 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 400
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:50:39 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:50:49.618 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/1
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:50:49.620 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:50:49.634 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 413
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:50:39 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:50:50.017 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 398
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:50:39 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:50:50.032 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 411
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:50:39 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[{"id":12,"category":{"id":0,"name":"dogs"},"name":"Fido","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372016900017489,"category":{"id":0,"name":"string"},"name":"cat","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":12084391,"category":{"id":-48583,"name":"cupidatat amet commodo"},"name":"doggie","photoUrls":["fugiat Ut eu","exercitation nostr"],"tags":[{"id":-27183415,"name":"e"},{"id":86979382,"name":"in anim consectetur Lorem ut"}],"status":"sold"},{"id":98515,"name":"Update_98515","photoUrls":[],"tags":[],"status":"sold"},{"id":3514,"category":{"id":1059,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":2115,"name":"string"},{"id":5224,"name":"string"}],"status":"sold"},{"id":9,"category":{"id":0,"name":"cats"},"name":"King Kong","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":1770971153658,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":7776,"category":{"id":4355,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":436,"name":"string"},{"id":4297,"name":"string"}],"status":"sold"},{"id":1205,"category":{"id":8453,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":9384,"name":"string"},{"id":3003,"name":"string"}],"status":"sold"},{"id":1770971444350,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971502605,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":64300,"name":"UpdatedName","photoUrls":[],"tags":[],"status":"sold"},{"id":1770971898716,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971898745,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971951734,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971951725,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":13,"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":215622,"category":{"id":5,"name":"Cats"},"name":"TestPet_245","photoUrls":["https://example.com/photo_6.jpg"],"tags":[{"id":1,"name":"tag_5"}],"status":"sold"},{"id":800613,"category":{"id":9,"name":"Fish"},"name":"TestPet_581","photoUrls":["https://example.com/photo_9.jpg"],"tags":[{"id":5,"name":"tag_2"}],"status":"sold"},{"id":529674,"category":{"id":7,"name":"Birds"},"name":"UpdatedPetName","photoUrls":["https://example.com/photo_10.jpg"],"tags":[{"id":1,"name":"tag_1"}],"status":"sold"},{"id":1770972178,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770972233371,"name":"NewDog","photoUrls":[],"status":"sold"},{"id":1770972372110,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770972372098,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770972428248,"name":"NewDog","photoUrls":[],"status":"sold"},{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}]
+
+03:50:50.324 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 5 (4 remaining) classpath:examples/petstore/user.feature
+03:50:50.459 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 5 (3 remaining) classpath:examples/petstore/addMascota/addMascota.feature
+03:50:50.651 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 5 (2 remaining) classpath:examples/petstore/constuMascota/constuMascota.feature
+03:50:50.819 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 5 (1 remaining) classpath:examples/petstore/getMascotaStatus/getMascotaStatus.feature
+03:50:50.911 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 5 of 5 (0 remaining) classpath:examples/petstore/updateMascota/updateMascota.feature
+03:52:29.117 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+03:52:29.123 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1770972749120
+03:52:29.131 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+03:52:30.324 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+03:52:30.324 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+03:52:30.324 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+03:52:30.324 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+03:52:30.324 [pool-2-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+03:52:30.416 [pool-2-thread-3] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/updateMascota/updateMascota.feature - call by tag at line 6: updateMascota
+03:52:30.416 [pool-2-thread-5] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:52:30.416 [pool-2-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:52:30.416 [pool-2-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/updateMascota/updateMascota.feature - call by tag at line 6: updateMascota
+03:52:30.437 [pool-2-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:52:30.437 [pool-2-thread-3] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:52:30.835 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 169
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":537.0,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:52:30.835 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 169
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":536.0,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:52:30.835 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 169
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":549.0,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:52:30.835 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 169
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":531.0,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:52:30.835 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 169
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":550.0,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:52:31.662 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 823
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:52:21 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":531,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:52:31.662 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 822
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:52:21 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":550,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:52:31.662 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 823
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:52:21 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":536,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:52:31.662 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 823
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:52:21 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":549,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:52:31.668 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 832
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:52:21 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":537,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:52:31.702 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 172
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":550.0,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:52:31.702 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 172
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":536.0,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:52:31.702 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 172
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":549.0,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:52:31.712 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/537.0
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:52:32.102 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 398
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:52:21 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":550,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:52:32.109 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/550.0
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:52:32.121 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 408
+1 < 404
+1 < Date: Fri, 13 Feb 2026 08:52:21 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"code":404,"type":"unknown","message":"java.lang.NumberFormatException: For input string: \"537.0\""}
+
+03:52:32.124 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 420
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:52:21 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":549,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:52:32.125 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 421
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:52:21 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":536,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:52:32.132 [pool-2-thread-1] ERROR com.intuit.karate - classpath:examples/petstore/user.feature:11
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 408, url: https://petstore.swagger.io/v2/pet/537.0, response: 
+{"code":404,"type":"unknown","message":"java.lang.NumberFormatException: For input string: \"537.0\""}
+classpath:examples/petstore/user.feature:11
+03:52:32.133 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:52:32.515 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 405
+1 < 404
+1 < Date: Fri, 13 Feb 2026 08:52:21 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"code":404,"type":"unknown","message":"java.lang.NumberFormatException: For input string: \"550.0\""}
+
+03:52:32.517 [pool-2-thread-3] ERROR com.intuit.karate - classpath:examples/petstore/constuMascota/constuMascota.feature:12
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 405, url: https://petstore.swagger.io/v2/pet/550.0, response: 
+{"code":404,"type":"unknown","message":"java.lang.NumberFormatException: For input string: \"550.0\""}
+classpath:examples/petstore/constuMascota/constuMascota.feature:12
+03:52:32.539 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 406
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:52:21 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[{"id":9223372016900017489,"category":{"id":0,"name":"string"},"name":"cat","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":12084391,"category":{"id":-48583,"name":"cupidatat amet commodo"},"name":"doggie","photoUrls":["fugiat Ut eu","exercitation nostr"],"tags":[{"id":-27183415,"name":"e"},{"id":86979382,"name":"in anim consectetur Lorem ut"}],"status":"sold"},{"id":98515,"name":"Update_98515","photoUrls":[],"tags":[],"status":"sold"},{"id":3514,"category":{"id":1059,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":2115,"name":"string"},{"id":5224,"name":"string"}],"status":"sold"},{"id":9,"category":{"id":0,"name":"cats"},"name":"King Kong","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":1770971153658,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":7776,"category":{"id":4355,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":436,"name":"string"},{"id":4297,"name":"string"}],"status":"sold"},{"id":1205,"category":{"id":8453,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":9384,"name":"string"},{"id":3003,"name":"string"}],"status":"sold"},{"id":1770971444350,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971502605,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":64300,"name":"UpdatedName","photoUrls":[],"tags":[],"status":"sold"},{"id":1770971898716,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971898745,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971951734,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971951725,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":13,"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":215622,"category":{"id":5,"name":"Cats"},"name":"TestPet_245","photoUrls":["https://example.com/photo_6.jpg"],"tags":[{"id":1,"name":"tag_5"}],"status":"sold"},{"id":800613,"category":{"id":9,"name":"Fish"},"name":"TestPet_581","photoUrls":["https://example.com/photo_9.jpg"],"tags":[{"id":5,"name":"tag_2"}],"status":"sold"},{"id":529674,"category":{"id":7,"name":"Birds"},"name":"UpdatedPetName","photoUrls":["https://example.com/photo_10.jpg"],"tags":[{"id":1,"name":"tag_1"}],"status":"sold"},{"id":1770972178,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770972233371,"name":"NewDog","photoUrls":[],"status":"sold"},{"id":1770972372110,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770972372098,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770972428248,"name":"NewDog","photoUrls":[],"status":"sold"},{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":549,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":536,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":550,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}]
+
+03:52:32.836 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 5 (4 remaining) classpath:examples/petstore/user.feature
+03:52:32.940 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 5 (3 remaining) classpath:examples/petstore/addMascota/addMascota.feature
+03:52:33.134 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 5 (2 remaining) classpath:examples/petstore/constuMascota/constuMascota.feature
+03:52:33.288 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 5 (1 remaining) classpath:examples/petstore/getMascotaStatus/getMascotaStatus.feature
+03:52:33.367 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 5 of 5 (0 remaining) classpath:examples/petstore/updateMascota/updateMascota.feature
+03:53:07.237 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+03:53:07.244 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1770972787241
+03:53:07.253 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+03:53:08.542 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+03:53:08.542 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+03:53:08.542 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+03:53:08.542 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+03:53:08.542 [pool-2-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+03:53:08.639 [pool-2-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:53:08.640 [pool-2-thread-3] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/updateMascota/updateMascota.feature - call by tag at line 6: updateMascota
+03:53:08.642 [pool-2-thread-5] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:53:08.640 [pool-2-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/updateMascota/updateMascota.feature - call by tag at line 6: updateMascota
+03:53:08.658 [pool-2-thread-3] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:53:08.666 [pool-2-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:53:09.047 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 166
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":10,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:53:09.047 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 166
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":10,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:53:09.047 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 166
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":10,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:53:09.047 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 166
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":10,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:53:09.047 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 166
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":10,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:53:09.784 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 733
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:52:59 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":10,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:53:09.784 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 733
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:52:59 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":10,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:53:09.784 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 733
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:52:59 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":10,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:53:09.784 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 733
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:52:59 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":10,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:53:09.785 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 733
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:52:59 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":10,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:53:09.824 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 169
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":10,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:53:09.824 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 169
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":10,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:53:09.824 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 169
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":10,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:53:09.832 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/10
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:53:10.235 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 410
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:52:59 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":10,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:53:10.235 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 410
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:52:59 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":10,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:53:10.246 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 421
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:52:59 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":10,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:53:10.252 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:53:10.253 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/10
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:53:10.294 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 460
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:52:59 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":10,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:53:10.680 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 426
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:53:00 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":10,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:53:10.681 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 428
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:53:00 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[{"id":9223372016900017489,"category":{"id":0,"name":"string"},"name":"cat","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":10,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":12084391,"category":{"id":-48583,"name":"cupidatat amet commodo"},"name":"doggie","photoUrls":["fugiat Ut eu","exercitation nostr"],"tags":[{"id":-27183415,"name":"e"},{"id":86979382,"name":"in anim consectetur Lorem ut"}],"status":"sold"},{"id":98515,"name":"Update_98515","photoUrls":[],"tags":[],"status":"sold"},{"id":3514,"category":{"id":1059,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":2115,"name":"string"},{"id":5224,"name":"string"}],"status":"sold"},{"id":9,"category":{"id":0,"name":"cats"},"name":"King Kong","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":1770971153658,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":7776,"category":{"id":4355,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":436,"name":"string"},{"id":4297,"name":"string"}],"status":"sold"},{"id":1205,"category":{"id":8453,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":9384,"name":"string"},{"id":3003,"name":"string"}],"status":"sold"},{"id":1770971444350,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971502605,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":64300,"name":"UpdatedName","photoUrls":[],"tags":[],"status":"sold"},{"id":1770971898716,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971898745,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971951734,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971951725,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":13,"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":215622,"category":{"id":5,"name":"Cats"},"name":"TestPet_245","photoUrls":["https://example.com/photo_6.jpg"],"tags":[{"id":1,"name":"tag_5"}],"status":"sold"},{"id":800613,"category":{"id":9,"name":"Fish"},"name":"TestPet_581","photoUrls":["https://example.com/photo_9.jpg"],"tags":[{"id":5,"name":"tag_2"}],"status":"sold"},{"id":529674,"category":{"id":7,"name":"Birds"},"name":"UpdatedPetName","photoUrls":["https://example.com/photo_10.jpg"],"tags":[{"id":1,"name":"tag_1"}],"status":"sold"},{"id":1770972178,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770972233371,"name":"NewDog","photoUrls":[],"status":"sold"},{"id":1770972372110,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770972372098,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770972428248,"name":"NewDog","photoUrls":[],"status":"sold"},{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":549,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":536,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":550,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}]
+
+03:53:10.973 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 5 (4 remaining) classpath:examples/petstore/user.feature
+03:53:11.113 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 5 (3 remaining) classpath:examples/petstore/addMascota/addMascota.feature
+03:53:11.393 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 5 (2 remaining) classpath:examples/petstore/constuMascota/constuMascota.feature
+03:53:11.532 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 5 (1 remaining) classpath:examples/petstore/getMascotaStatus/getMascotaStatus.feature
+03:53:11.603 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 5 of 5 (0 remaining) classpath:examples/petstore/updateMascota/updateMascota.feature
+03:54:19.479 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+03:54:19.484 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1770972859482
+03:54:19.491 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+03:54:20.760 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+03:54:20.760 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+03:54:20.760 [pool-2-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+03:54:20.760 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+03:54:20.760 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+03:54:20.860 [pool-2-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:54:20.860 [pool-2-thread-3] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/updateMascota/updateMascota.feature - call by tag at line 6: updateMascota
+03:54:20.860 [pool-2-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/updateMascota/updateMascota.feature - call by tag at line 6: updateMascota
+03:54:20.860 [pool-2-thread-5] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:54:20.876 [pool-2-thread-3] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:54:20.876 [pool-2-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:54:21.292 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 167
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":720,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:54:21.292 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 167
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":100,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:54:21.292 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 167
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":555,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:54:21.292 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 167
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":912,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:54:21.292 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 167
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":203,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:54:22.074 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 778
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:54:11 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":555,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:54:22.074 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 778
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:54:11 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":100,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:54:22.074 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 777
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:54:11 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":912,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:54:22.074 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 777
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:54:11 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":203,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:54:22.074 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 778
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:54:11 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":720,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:54:22.118 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 170
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":555,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:54:22.118 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 170
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":100,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:54:22.118 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 170
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":912,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:54:22.125 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/720
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:54:22.532 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 405
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:54:11 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":720,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:54:22.532 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 412
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:54:11 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":912,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:54:22.538 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 419
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:54:11 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":555,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:54:22.539 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 421
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:54:11 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":100,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:54:22.547 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:54:22.548 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/100
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:54:23.010 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 462
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:54:12 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":100,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:54:23.012 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 463
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:54:12 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[{"id":9223372016900017489,"category":{"id":0,"name":"string"},"name":"cat","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":12084391,"category":{"id":-48583,"name":"cupidatat amet commodo"},"name":"doggie","photoUrls":["fugiat Ut eu","exercitation nostr"],"tags":[{"id":-27183415,"name":"e"},{"id":86979382,"name":"in anim consectetur Lorem ut"}],"status":"sold"},{"id":98515,"name":"Update_98515","photoUrls":[],"tags":[],"status":"sold"},{"id":3514,"category":{"id":1059,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":2115,"name":"string"},{"id":5224,"name":"string"}],"status":"sold"},{"id":9,"category":{"id":0,"name":"cats"},"name":"King Kong","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":1770971153658,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":7776,"category":{"id":4355,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":436,"name":"string"},{"id":4297,"name":"string"}],"status":"sold"},{"id":1205,"category":{"id":8453,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":9384,"name":"string"},{"id":3003,"name":"string"}],"status":"sold"},{"id":1770971444350,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971502605,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":64300,"name":"UpdatedName","photoUrls":[],"tags":[],"status":"sold"},{"id":1770971898716,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971898745,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971951734,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971951725,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":13,"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":215622,"category":{"id":5,"name":"Cats"},"name":"TestPet_245","photoUrls":["https://example.com/photo_6.jpg"],"tags":[{"id":1,"name":"tag_5"}],"status":"sold"},{"id":800613,"category":{"id":9,"name":"Fish"},"name":"TestPet_581","photoUrls":["https://example.com/photo_9.jpg"],"tags":[{"id":5,"name":"tag_2"}],"status":"sold"},{"id":529674,"category":{"id":7,"name":"Birds"},"name":"UpdatedPetName","photoUrls":["https://example.com/photo_10.jpg"],"tags":[{"id":1,"name":"tag_1"}],"status":"sold"},{"id":1770972178,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770972233371,"name":"NewDog","photoUrls":[],"status":"sold"},{"id":1770972372110,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770972372098,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770972428248,"name":"NewDog","photoUrls":[],"status":"sold"},{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":549,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":536,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":550,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":769115,"category":{"id":1,"name":"Dogs"},"name":"UpdatedDog-769115","photoUrls":["https://example.com/photo1.jpg"],"tags":[{"id":1,"name":"test-tag"}],"status":"sold"},{"id":555,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":100,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":912,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}]
+
+03:54:23.211 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 5 (4 remaining) classpath:examples/petstore/user.feature
+03:54:23.296 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 5 (3 remaining) classpath:examples/petstore/addMascota/addMascota.feature
+03:54:23.517 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 5 (2 remaining) classpath:examples/petstore/constuMascota/constuMascota.feature
+03:54:23.651 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 5 (1 remaining) classpath:examples/petstore/getMascotaStatus/getMascotaStatus.feature
+03:54:23.729 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 5 of 5 (0 remaining) classpath:examples/petstore/updateMascota/updateMascota.feature
+03:55:11.297 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+03:55:11.304 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1770972911300
+03:55:11.309 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+03:55:12.565 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+03:55:12.565 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+03:55:12.565 [pool-2-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+03:55:12.565 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+03:55:12.565 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+03:55:12.662 [pool-2-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/updateMascota/updateMascota.feature - call by tag at line 6: updateMascota
+03:55:12.662 [pool-2-thread-3] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/updateMascota/updateMascota.feature - call by tag at line 6: updateMascota
+03:55:12.662 [pool-2-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:55:12.666 [pool-2-thread-5] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:55:12.679 [pool-2-thread-3] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:55:12.688 [pool-2-thread-4] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:55:13.077 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 167
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":162,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:55:13.077 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 167
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":558,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:55:13.077 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 167
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":820,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:55:13.077 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 167
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":598,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:55:13.077 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 167
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":934,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:55:13.803 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 722
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:55:03 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":820,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:55:13.804 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 723
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:55:03 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":162,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:55:13.804 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 725
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:55:03 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":558,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:55:13.804 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 722
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:55:03 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":598,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:55:13.806 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 727
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:55:03 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":934,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:55:13.853 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 170
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":558,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:55:13.853 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 170
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":934,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:55:13.853 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 170
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":162,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:55:13.859 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/598
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:55:14.261 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 408
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:55:03 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":934,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:55:14.277 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 424
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:55:03 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":558,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:55:14.277 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 418
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:55:03 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":598,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:55:14.284 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/558
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:55:14.287 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 432
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:55:03 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":162,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:55:14.297 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:55:14.697 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 399
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:55:04 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[{"id":9223372016900017489,"category":{"id":0,"name":"string"},"name":"cat","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":12084391,"category":{"id":-48583,"name":"cupidatat amet commodo"},"name":"doggie","photoUrls":["fugiat Ut eu","exercitation nostr"],"tags":[{"id":-27183415,"name":"e"},{"id":86979382,"name":"in anim consectetur Lorem ut"}],"status":"sold"},{"id":98515,"name":"Update_98515","photoUrls":[],"tags":[],"status":"sold"},{"id":3514,"category":{"id":1059,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":2115,"name":"string"},{"id":5224,"name":"string"}],"status":"sold"},{"id":9,"category":{"id":0,"name":"cats"},"name":"King Kong","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":1770971153658,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":7776,"category":{"id":4355,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":436,"name":"string"},{"id":4297,"name":"string"}],"status":"sold"},{"id":1205,"category":{"id":8453,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":9384,"name":"string"},{"id":3003,"name":"string"}],"status":"sold"},{"id":1770971444350,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971502605,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":64300,"name":"UpdatedName","photoUrls":[],"tags":[],"status":"sold"},{"id":1770971898716,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971898745,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971951734,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971951725,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":13,"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":215622,"category":{"id":5,"name":"Cats"},"name":"TestPet_245","photoUrls":["https://example.com/photo_6.jpg"],"tags":[{"id":1,"name":"tag_5"}],"status":"sold"},{"id":800613,"category":{"id":9,"name":"Fish"},"name":"TestPet_581","photoUrls":["https://example.com/photo_9.jpg"],"tags":[{"id":5,"name":"tag_2"}],"status":"sold"},{"id":529674,"category":{"id":7,"name":"Birds"},"name":"UpdatedPetName","photoUrls":["https://example.com/photo_10.jpg"],"tags":[{"id":1,"name":"tag_1"}],"status":"sold"},{"id":1770972178,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770972233371,"name":"NewDog","photoUrls":[],"status":"sold"},{"id":1770972372110,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770972372098,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770972428248,"name":"NewDog","photoUrls":[],"status":"sold"},{"id":549,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":536,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":550,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":769115,"category":{"id":1,"name":"Dogs"},"name":"UpdatedDog-769115","photoUrls":["https://example.com/photo1.jpg"],"tags":[{"id":1,"name":"test-tag"}],"status":"sold"},{"id":555,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":100,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":912,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":558,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":934,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":162,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}]
+
+03:55:14.704 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 419
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:55:04 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":558,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:55:14.963 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 5 (4 remaining) classpath:examples/petstore/user.feature
+03:55:15.062 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 5 (3 remaining) classpath:examples/petstore/addMascota/addMascota.feature
+03:55:15.277 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 5 (2 remaining) classpath:examples/petstore/constuMascota/constuMascota.feature
+03:55:15.390 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 5 (1 remaining) classpath:examples/petstore/getMascotaStatus/getMascotaStatus.feature
+03:55:15.474 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 5 of 5 (0 remaining) classpath:examples/petstore/updateMascota/updateMascota.feature

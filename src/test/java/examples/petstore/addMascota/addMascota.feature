@@ -4,7 +4,9 @@ Feature: Add Mascota
     * url baseUrl
 
   Scenario: add mascota
-    * def petId = java.lang.System.currentTimeMillis()
+    * def Random = Java.type('java.util.Random')
+    * def rand = new Random()
+    * def petId = rand.nextInt(900) + 100
     Given path 'v2/pet'
     * def payload =
     """

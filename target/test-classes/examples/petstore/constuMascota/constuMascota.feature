@@ -4,7 +4,7 @@ Feature: Consultar Mascota
     * url baseUrl
 
   Scenario: consultar mascota
-    * def result = call read('classpath:examples/petstore/addMascota/addMascota.feature@addMascota')
+    * def result = call read('classpath:examples/petstore/updateMascota/updateMascota.feature@updateMascota')
     * def petId = result.petId
     * def payload = result.payload
     Given path 'v2/pet', petId
