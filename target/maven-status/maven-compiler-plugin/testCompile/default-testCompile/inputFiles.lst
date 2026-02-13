@@ -1,2 +1,6 @@
-J:\Workspace\BANCOPICHINCHA\automationPrueba\src\test\java\examples\users\UsersRunner.java
-J:\Workspace\BANCOPICHINCHA\automationPrueba\src\test\java\examples\ExamplesTest.java
+J:\Workspace\BANCOPICHINCHA\karatePrueba\src\test\java\examples\petstore\UsersRunner.java
+J:\Workspace\BANCOPICHINCHA\karatePrueba\src\test\java\examples\petstore\constuMascota\ConstuMascotaRunner.java
+J:\Workspace\BANCOPICHINCHA\karatePrueba\src\test\java\examples\petstore\updateMascota\UpdateMascotaRunner.java
+J:\Workspace\BANCOPICHINCHA\karatePrueba\src\test\java\examples\petstore\getMascotaStatus\GetMascotaStatusRunner.java
+J:\Workspace\BANCOPICHINCHA\karatePrueba\src\test\java\examples\ExamplesTest.java
+J:\Workspace\BANCOPICHINCHA\karatePrueba\src\test\java\examples\petstore\addMascota\AddMascotaRunner.java

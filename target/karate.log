@@ -1,6 +1,6 @@
-02:14:36.120 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-02:14:37.436 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
-02:14:37.740 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+02:55:06.699 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:55:07.803 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+02:55:08.088 [pool-2-thread-1] DEBUG com.intuit.karate - request:
 1 > GET https://petstore.swagger.io/v2/pet/1
 1 > Host: petstore.swagger.io
 1 > Connection: Keep-Alive
@@ -8,9 +8,42 @@
 1 > Accept-Encoding: gzip,deflate
 
 
-02:14:38.430 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 688
+02:55:08.828 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 736
+1 < 404
+1 < Date: Fri, 13 Feb 2026 07:54:58 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"code":1,"type":"error","message":"Pet not found"}
+
+02:55:08.858 [pool-2-thread-1] ERROR com.intuit.karate - classpath:examples/petstore/user.feature:8
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 736, url: https://petstore.swagger.io/v2/pet/1, response: 
+{"code":1,"type":"error","message":"Pet not found"}
+classpath:examples/petstore/user.feature:8
+02:55:09.515 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:examples/petstore/user.feature
+03:09:52.178 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @addMascota
+03:09:53.068 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+03:09:53.073 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1770970193070
+03:09:53.079 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+03:09:54.314 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+03:09:54.737 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 165
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:09:57.578 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 2826
 1 < 200
-1 < Date: Fri, 13 Feb 2026 07:14:27 GMT
+1 < Date: Fri, 13 Feb 2026 08:09:46 GMT
 1 < Content-Type: application/json
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -20,4 +53,402 @@
 1 < Server: Jetty(9.2.9.v20150224)
 {"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
 
-02:14:39.202 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
+03:09:58.114 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 5 (3 remaining) classpath:examples/petstore/addMascota/addMascota.feature
+03:11:46.001 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @addMascota
+03:11:46.845 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+03:11:46.849 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1770970306846
+03:11:46.854 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+03:11:48.047 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+03:11:48.489 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 165
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:11:49.220 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 726
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:11:38 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:11:49.754 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 5 (3 remaining) classpath:examples/petstore/addMascota/addMascota.feature
+03:12:47.413 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @constuMascota
+03:12:48.227 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+03:12:48.231 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1770970368228
+03:12:48.235 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+03:12:49.336 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+03:12:49.636 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/1
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:12:50.424 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 783
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:12:39 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:12:50.925 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 5 (2 remaining) classpath:examples/petstore/constuMascota/constuMascota.feature
+03:14:29.869 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @constuMascota
+03:14:30.632 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+03:14:30.636 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1770970470633
+03:14:30.640 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+03:14:31.704 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+03:14:31.998 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/1
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:14:32.744 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 743
+1 < 404
+1 < Date: Fri, 13 Feb 2026 08:14:22 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"code":1,"type":"error","message":"Pet not found"}
+
+03:14:32.770 [pool-2-thread-1] ERROR com.intuit.karate - classpath:examples/petstore/constuMascota/constuMascota.feature:9
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 743, url: https://petstore.swagger.io/v2/pet/1, response: 
+{"code":1,"type":"error","message":"Pet not found"}
+classpath:examples/petstore/constuMascota/constuMascota.feature:9
+03:14:33.305 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 5 (2 remaining) classpath:examples/petstore/constuMascota/constuMascota.feature
+03:17:38.860 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @constuMascota
+03:17:39.697 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+03:17:39.701 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1770970659698
+03:17:39.706 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+03:17:40.681 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+03:17:40.743 [pool-2-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:17:41.072 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 177
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1770970660758,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:17:41.799 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 725
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:17:31 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1770970660758,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:17:41.829 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/1770970660758
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:17:42.229 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 399
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:17:31 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1770970660758,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:17:42.784 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 5 (2 remaining) classpath:examples/petstore/constuMascota/constuMascota.feature
+03:25:51.527 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @updateMascota
+03:25:52.361 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+03:25:52.365 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1770971152362
+03:25:52.371 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+03:25:53.567 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+03:25:53.639 [pool-2-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:25:54.010 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 177
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1770971153658,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:25:54.825 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 800
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:25:44 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1770971153658,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:25:54.848 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 180
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1770971153658,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:25:55.259 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 410
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:25:44 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1770971153658,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:25:55.929 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 5 of 5 (0 remaining) classpath:examples/petstore/updateMascota/updateMascota.feature
+03:29:33.429 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @getMasotaStatus
+03:29:34.238 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+03:29:34.241 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1770971374239
+03:29:34.247 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+03:30:42.434 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @getMascotaStatus
+03:30:43.216 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+03:30:43.219 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1770971443217
+03:30:43.226 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+03:30:44.271 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+03:30:44.326 [pool-2-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/updateMascota/updateMascota.feature - call by tag at line 6: updateMascota
+03:30:44.335 [pool-2-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:30:44.661 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 177
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1770971444350,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:30:45.450 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 786
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:30:34 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1770971444350,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:30:45.475 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 180
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1770971444350,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:30:45.886 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 410
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:30:35 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1770971444350,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:30:45.894 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:30:46.305 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 410
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:30:35 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[{"id":386,"category":{"id":94,"name":"3dG"},"name":"doggie","photoUrls":["I0aQZBWp","465vPFc","kr7QPe"],"tags":[{"id":116,"name":"12rShL4Z"},{"id":995,"name":"gz6Z"},{"id":15,"name":"kXHAnSK9w"}],"status":"sold"},{"id":13,"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9999999,"name":"GhostPet","photoUrls":["https://example.com/dog.jpg"],"tags":[],"status":"sold"},{"id":12,"category":{"id":0,"name":"dogs"},"name":"Fido","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372016900017489,"category":{"id":0,"name":"string"},"name":"cat","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":12084391,"category":{"id":-48583,"name":"cupidatat amet commodo"},"name":"doggie","photoUrls":["fugiat Ut eu","exercitation nostr"],"tags":[{"id":-27183415,"name":"e"},{"id":86979382,"name":"in anim consectetur Lorem ut"}],"status":"sold"},{"id":98515,"name":"Update_98515","photoUrls":[],"tags":[],"status":"sold"},{"id":3514,"category":{"id":1059,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":2115,"name":"string"},{"id":5224,"name":"string"}],"status":"sold"},{"id":9,"category":{"id":0,"name":"cats"},"name":"King Kong","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":1770971153658,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":112233,"category":{"id":123,"name":"Dog"},"name":"","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":7776,"category":{"id":4355,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":436,"name":"string"},{"id":4297,"name":"string"}],"status":"sold"},{"id":1205,"category":{"id":8453,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":9384,"name":"string"},{"id":3003,"name":"string"}],"status":"sold"},{"id":1770971444350,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}]
+
+03:30:46.312 [pool-2-thread-1] ERROR com.intuit.karate - classpath:examples/petstore/getMascotaStatus/getMascotaStatus.feature:14
+And match response contains { id: #(petId), name: #(updatedPayload.name), status: 'sold' }
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - {"id":1770971444350,"name":"Firulais Updated","status":"sold"} (LIST:MAP)
+  [{"id":386,"category":{"id":94,"name":"3dG"},"name":"doggie","photoUrls":["I0aQZBWp","465vPFc","kr7QPe"],"tags":[{"id":116,"name":"12rShL4Z"},{"id":995,"name":"gz6Z"},{"id":15,"name":"kXHAnSK9w"}],"status":"sold"},{"id":13,"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9999999,"name":"GhostPet","photoUrls":["https://example.com/dog.jpg"],"tags":[],"status":"sold"},{"id":12,"category":{"id":0,"name":"dogs"},"name":"Fido","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372016900017489,"category":{"id":0,"name":"string"},"name":"cat","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":12084391,"category":{"id":-48583,"name":"cupidatat amet commodo"},"name":"doggie","photoUrls":["fugiat Ut eu","exercitation nostr"],"tags":[{"id":-27183415,"name":"e"},{"id":86979382,"name":"in anim consectetur Lorem ut"}],"status":"sold"},{"id":98515,"name":"Update_98515","photoUrls":[],"tags":[],"status":"sold"},{"id":3514,"category":{"id":1059,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":2115,"name":"string"},{"id":5224,"name":"string"}],"status":"sold"},{"id":9,"category":{"id":0,"name":"cats"},"name":"King Kong","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":1770971153658,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":112233,"category":{"id":123,"name":"Dog"},"name":"","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":7776,"category":{"id":4355,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":436,"name":"string"},{"id":4297,"name":"string"}],"status":"sold"},{"id":1205,"category":{"id":8453,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":9384,"name":"string"},{"id":3003,"name":"string"}],"status":"sold"},{"id":1770971444350,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}]
+  {"id":1770971444350,"name":"Firulais Updated","status":"sold"}
+
+    $[13] | not equal | actual has 3 more key(s) than expected - {"category":{"id":1,"name":"Perros"},"photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}]} (MAP:MAP)
+    {"id":1770971444350,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+    {"id":1770971444350,"name":"Firulais Updated","status":"sold"}
+
+    $[12] | not equal | actual has 3 more key(s) than expected - {"category":{"id":8453,"name":"string"},"photoUrls":["string","string"],"tags":[{"id":9384,"name":"string"},{"id":3003,"name":"string"}]} (MAP:MAP)
+    {"id":1205,"category":{"id":8453,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":9384,"name":"string"},{"id":3003,"name":"string"}],"status":"sold"}
+    {"id":1770971444350,"name":"Firulais Updated","status":"sold"}
+
+    $[11] | not equal | actual has 3 more key(s) than expected - {"category":{"id":4355,"name":"string"},"photoUrls":["string","string"],"tags":[{"id":436,"name":"string"},{"id":4297,"name":"string"}]} (MAP:MAP)
+    {"id":7776,"category":{"id":4355,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":436,"name":"string"},{"id":4297,"name":"string"}],"status":"sold"}
+    {"id":1770971444350,"name":"Firulais Updated","status":"sold"}
+
+    $[10] | not equal | actual has 3 more key(s) than expected - {"category":{"id":123,"name":"Dog"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}]} (MAP:MAP)
+    {"id":112233,"category":{"id":123,"name":"Dog"},"name":"","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"}
+    {"id":1770971444350,"name":"Firulais Updated","status":"sold"}
+
+    $[9] | not equal | actual has 3 more key(s) than expected - {"category":{"id":1,"name":"Perros"},"photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}]} (MAP:MAP)
+    {"id":1770971153658,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+    {"id":1770971444350,"name":"Firulais Updated","status":"sold"}
+
+    $[8] | not equal | actual has 3 more key(s) than expected - {"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}]} (MAP:MAP)
+    {"id":9,"category":{"id":0,"name":"cats"},"name":"King Kong","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"}
+    {"id":1770971444350,"name":"Firulais Updated","status":"sold"}
+
+    $[7] | not equal | actual has 3 more key(s) than expected - {"category":{"id":1059,"name":"string"},"photoUrls":["string","string"],"tags":[{"id":2115,"name":"string"},{"id":5224,"name":"string"}]} (MAP:MAP)
+    {"id":3514,"category":{"id":1059,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":2115,"name":"string"},{"id":5224,"name":"string"}],"status":"sold"}
+    {"id":1770971444350,"name":"Firulais Updated","status":"sold"}
+
+    $[6] | not equal | actual has 2 more key(s) than expected - {"photoUrls":[],"tags":[]} (MAP:MAP)
+    {"id":98515,"name":"Update_98515","photoUrls":[],"tags":[],"status":"sold"}
+    {"id":1770971444350,"name":"Firulais Updated","status":"sold"}
+
+    $[5] | not equal | actual has 3 more key(s) than expected - {"category":{"id":-48583,"name":"cupidatat amet commodo"},"photoUrls":["fugiat Ut eu","exercitation nostr"],"tags":[{"id":-27183415,"name":"e"},{"id":86979382,"name":"in anim consectetur Lorem ut"}]} (MAP:MAP)
+    {"id":12084391,"category":{"id":-48583,"name":"cupidatat amet commodo"},"name":"doggie","photoUrls":["fugiat Ut eu","exercitation nostr"],"tags":[{"id":-27183415,"name":"e"},{"id":86979382,"name":"in anim consectetur Lorem ut"}],"status":"sold"}
+    {"id":1770971444350,"name":"Firulais Updated","status":"sold"}
+
+    $[4] | not equal | actual has 3 more key(s) than expected - {"category":{"id":0,"name":"string"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}]} (MAP:MAP)
+    {"id":9223372016900017489,"category":{"id":0,"name":"string"},"name":"cat","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"}
+    {"id":1770971444350,"name":"Firulais Updated","status":"sold"}
+
+    $[3] | not equal | actual has 3 more key(s) than expected - {"category":{"id":0,"name":"dogs"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}]} (MAP:MAP)
+    {"id":12,"category":{"id":0,"name":"dogs"},"name":"Fido","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"}
+    {"id":1770971444350,"name":"Firulais Updated","status":"sold"}
+
+    $[2] | not equal | actual has 2 more key(s) than expected - {"photoUrls":["https:\/\/example.com\/dog.jpg"],"tags":[]} (MAP:MAP)
+    {"id":9999999,"name":"GhostPet","photoUrls":["https://example.com/dog.jpg"],"tags":[],"status":"sold"}
+    {"id":1770971444350,"name":"Firulais Updated","status":"sold"}
+
+    $[1] | not equal | actual has 2 more key(s) than expected - {"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}]} (MAP:MAP)
+    {"id":13,"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"}
+    {"id":1770971444350,"status":"sold","name":"Firulais Updated"}
+
+    $[0] | not equal | actual has 3 more key(s) than expected - {"category":{"id":94,"name":"3dG"},"photoUrls":["I0aQZBWp","465vPFc","kr7QPe"],"tags":[{"id":116,"name":"12rShL4Z"},{"id":995,"name":"gz6Z"},{"id":15,"name":"kXHAnSK9w"}]} (MAP:MAP)
+    {"id":386,"category":{"id":94,"name":"3dG"},"name":"doggie","photoUrls":["I0aQZBWp","465vPFc","kr7QPe"],"tags":[{"id":116,"name":"12rShL4Z"},{"id":995,"name":"gz6Z"},{"id":15,"name":"kXHAnSK9w"}],"status":"sold"}
+    {"id":1770971444350,"name":"Firulais Updated","status":"sold"}
+
+
+classpath:examples/petstore/getMascotaStatus/getMascotaStatus.feature:14
+03:30:47.176 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 5 (1 remaining) classpath:examples/petstore/getMascotaStatus/getMascotaStatus.feature
+03:31:40.591 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @getMascotaStatus
+03:31:41.411 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+03:31:41.417 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1770971501413
+03:31:41.423 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+03:31:42.526 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+03:31:42.582 [pool-2-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/updateMascota/updateMascota.feature - call by tag at line 6: updateMascota
+03:31:42.590 [pool-2-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - classpath:examples/petstore/addMascota/addMascota.feature - call by tag at line 6: addMascota
+03:31:42.929 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 177
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1770971502605,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:31:43.622 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 691
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:31:33 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1770971502605,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+03:31:43.647 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 180
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1770971502605,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https:\/\/foto.com\/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:31:44.083 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 434
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:31:33 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1770971502605,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}
+
+03:31:44.089 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:31:44.490 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 401
+1 < 200
+1 < Date: Fri, 13 Feb 2026 08:31:33 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[{"id":9999999,"name":"GhostPet","photoUrls":["https://example.com/dog.jpg"],"tags":[],"status":"sold"},{"id":12,"category":{"id":0,"name":"dogs"},"name":"Fido","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372016900017489,"category":{"id":0,"name":"string"},"name":"cat","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":12084391,"category":{"id":-48583,"name":"cupidatat amet commodo"},"name":"doggie","photoUrls":["fugiat Ut eu","exercitation nostr"],"tags":[{"id":-27183415,"name":"e"},{"id":86979382,"name":"in anim consectetur Lorem ut"}],"status":"sold"},{"id":98515,"name":"Update_98515","photoUrls":[],"tags":[],"status":"sold"},{"id":3514,"category":{"id":1059,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":2115,"name":"string"},{"id":5224,"name":"string"}],"status":"sold"},{"id":9,"category":{"id":0,"name":"cats"},"name":"King Kong","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":1770971153658,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":7776,"category":{"id":4355,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":436,"name":"string"},{"id":4297,"name":"string"}],"status":"sold"},{"id":1205,"category":{"id":8453,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":9384,"name":"string"},{"id":3003,"name":"string"}],"status":"sold"},{"id":1770971444350,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"},{"id":1770971502605,"category":{"id":1,"name":"Perros"},"name":"Firulais Updated","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"sold"}]
+
+03:31:45.333 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 5 (1 remaining) classpath:examples/petstore/getMascotaStatus/getMascotaStatus.feature
