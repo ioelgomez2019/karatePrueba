@@ -4,8 +4,14 @@ Proyecto de pruebas con Karate para consumir el Petstore.
 
 ## Requisitos
 
-- Java 11+ (o el que use tu proyecto)
-- Maven
+- Java 11 (segun pom.xml)
+- Maven 3.x (recomendado 3.8+)
+
+Versiones de tecnologia (pom.xml):
+
+- Karate: 1.5.0
+- Maven Compiler Plugin: 3.11.0
+- Maven Surefire Plugin: 3.0.0
 
 ## Configuracion de entorno
 

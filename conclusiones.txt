@@ -1,0 +1,12 @@
+Hallazgos y conclusiones
+
+1) La API de Petstore es compartida/publica, por lo que los datos cambian con frecuencia.
+2) El endpoint findByStatus devuelve una lista con muchos registros; se valida con contains deep para evitar fallos por campos extra.
+3) Para evitar choques de datos, se usa un id dinamico al crear la mascota.
+4) El flujo recomendado es: crear mascota -> actualizar a sold -> consultar por status sold.
+5) Los reportes se generan correctamente en target/karate-reports/ y permiten reproducir la evidencia.
+
+Conclusiones
+- Las pruebas son reproducibles si se usa Java 11, Maven 3.x y se configura el BASE_URL en .env.
+- Se recomienda mantener los asserts flexibles (contains deep) en endpoints de busqueda por el volumen de datos.
+- El uso de id dinamico reduce la colision con datos existentes en el ambiente publico.
