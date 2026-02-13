@@ -1,0 +1,23 @@
+02:14:36.120 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:14:37.436 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+02:14:37.740 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/1
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+02:14:38.430 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 688
+1 < 200
+1 < Date: Fri, 13 Feb 2026 07:14:27 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":1,"category":{"id":1,"name":"Perros"},"name":"Firulais","photoUrls":["https://foto.com/perro.jpg"],"tags":[{"id":1,"name":"vacunado"}],"status":"available"}
+
+02:14:39.202 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
